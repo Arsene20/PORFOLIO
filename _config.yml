@@ -4,7 +4,7 @@
 title: "Arsène — Développeur Full Stack Java / Angular"
 description: "Portfolio professionnel : Java, Spring Boot, Angular, DevOps."
 url: "https://arsene20.github.io"
-baseurl: ""
+baseurl: "/PORFOLIO"
 
 # Désactiver Jekyll (site HTML pur, pas de thème Jekyll)
 # Décommenter la ligne ci-dessous si tu veux un site HTML pur sans traitement Jekyll
