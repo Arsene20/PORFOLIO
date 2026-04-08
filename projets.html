@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets — Arsène · Développeur Full Stack Java / Angular</title>
+  <meta name="description" content="Projets réalisés par Arsène : ACE (Université Laval), SkyTransit, CARE Cameroon, JOE Cargo." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<nav>
+  <span class="nav-brand">Arsène.</span>
+  <ul class="nav-links">
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="projets.html" class="active">Projets</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="container">
+<section style="padding-top:4rem;">
+  <p class="section-label">Portfolio</p>
+  <h2>Projets & Expériences</h2>
+  <p style="color:var(--muted);max-width:620px;margin-bottom:2.5rem;">
+    Un aperçu des projets sur lesquels j'ai contribué — de la conception à la mise en production.
+  </p>
+
+  <div class="exp-list">
+
+    <!-- ACE -->
+    <div class="exp-card">
+      <h3>ACE — Gestion des charges d'enseignement</h3>
+      <div class="exp-meta">Université Laval · Canada</div>
+      <p>
+        Application interne dédiée au suivi et à la gestion des charges d'enseignement
+        au sein d'une université. Le système gère les règles métier complexes liées
+        à la répartition des cours, aux contrats enseignants et aux validations administratives.
+      </p>
+      <ul>
+        <li>Analyse des besoins et développement de fonctionnalités métier complexes</li>
+        <li>Développement back-end Java / Spring Boot, front-end Vaadin</li>
+        <li>Amélioration des règles de gestion et réduction de la dette technique</li>
+        <li>Participation aux revues de code et aux sessions de travail en équipe agile</li>
+        <li>Optimisation de la maintenabilité et de la couverture des tests</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Vaadin</span>
+        <span class="tag">PostgreSQL</span><span class="tag">Maven</span><span class="tag">Agile Scrum</span>
+      </div>
+    </div>
+
+    <!-- SkyTransit -->
+    <div class="exp-card">
+      <h3>SkyTransit — Logistique multi-agences</h3>
+      <div class="exp-meta">SkySoft · Plateforme de gestion logistique</div>
+      <p>
+        Plateforme de gestion logistique permettant à plusieurs agences de gérer
+        leurs colis, transferts, tracking en temps réel, et opérations financières.
+        Système distribué avec APIs REST consommées par des interfaces Angular.
+      </p>
+      <ul>
+        <li>Développement d'APIs REST : gestion des colis, transferts inter-agences, tracking</li>
+        <li>Mise en place de modules financiers (facturation, rapprochement, reporting)</li>
+        <li>Contribution au déploiement continu via une approche DevOps (Docker, CI/CD)</li>
+        <li>Amélioration de la fiabilité du système en production</li>
+        <li>Collaboration avec les équipes métier pour l'évolution des fonctionnalités</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Angular</span>
+        <span class="tag">REST API</span><span class="tag">Docker</span><span class="tag">PostgreSQL</span>
+        <span class="tag">CI/CD</span>
+      </div>
+    </div>
+
+    <!-- CARE Cameroon -->
+    <div class="exp-card">
+      <h3>CARE Cameroon — Système d'information ONG</h3>
+      <div class="exp-meta">CARE International · Cameroun</div>
+      <p>
+        Système d'information pour la gestion des programmes humanitaires et administratifs
+        d'une ONG internationale au Cameroun. Gestion des bénéficiaires, des projets
+        et des rapports opérationnels.
+      </p>
+      <ul>
+        <li>Développement et maintenance d'un système de gestion multi-modules</li>
+        <li>Gestion des données bénéficiaires, suivi des programmes et rapports</li>
+        <li>Mise en place de contrôles d'accès par rôle (Spring Security)</li>
+        <li>Fiabilisation des données et amélioration des performances des requêtes</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Spring Security</span>
+        <span class="tag">Angular</span><span class="tag">MySQL</span><span class="tag">Swagger</span>
+      </div>
+    </div>
+
+    <!-- JOE Cargo -->
+    <div class="exp-card">
+      <h3>JOE Cargo — Gestion de fret et expéditions</h3>
+      <div class="exp-meta">Projet fret international</div>
+      <p>
+        Application de gestion du fret et des expéditions internationales.
+        Suivi des marchandises, gestion documentaire, coordination entre
+        expéditeurs, transitaires et destinataires.
+      </p>
+      <ul>
+        <li>Développement des modules de suivi de marchandises et gestion documentaire</li>
+        <li>Intégration d'APIs partenaires pour le tracking et les notifications</li>
+        <li>Construction du back-end REST avec Spring Boot et du front-end Angular</li>
+        <li>Mise en place du déploiement via Docker et Nginx</li>
+      </ul>
+      <div class="tags">
+        <span class="tag">Java</span><span class="tag">Spring Boot</span><span class="tag">Angular</span>
+        <span class="tag">REST API</span><span class="tag">Docker</span><span class="tag">Nginx</span>
+        <span class="tag">TypeScript</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+</div>
+
+<footer>
+  <p>Arsène · Développeur Full Stack Java / Angular · Montréal, Canada</p>
+  <p style="margin-top:.4rem;">
+    <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a> ·
+    <a href="https://linkedin.com/in/" target="_blank" rel="noopener">LinkedIn</a> ·
+    <a href="contact.html">Contact</a>
+  </p>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# ============================================================
+# GitHub Pages — Jekyll config
+# ============================================================
+title: "Arsène — Développeur Full Stack Java / Angular"
+description: "Portfolio professionnel : Java, Spring Boot, Angular, DevOps."
+url: "https://votre-username.github.io"
+baseurl: ""
+
+# Désactiver Jekyll (site HTML pur, pas de thème Jekyll)
+# Décommenter la ligne ci-dessous si tu veux un site HTML pur sans traitement Jekyll
+# plugins: []
+
+# Exclure les fichiers inutiles du build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - .git/
+
+# SEO / Social
+author: "Arsène"
+lang: fr
+
+# Pas de thème Jekyll — on gère le CSS nous-mêmes
+theme: ~
